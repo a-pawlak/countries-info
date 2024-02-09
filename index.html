@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" type="image/png" href="/Geocatching.png" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./src/style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+      integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+      crossorigin=""
+    />
+    <script
+      defer
+      src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+      integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+      crossorigin=""
+    ></script>
+
+    <script defer src="./src/script.js"></script>
+    <title>Country info 🤖</title>
+  </head>
+  <body>
+    <header class="header" id="header">
+      <div class="content">
+        <img src="./src/Geocatching.png" alt="Logo" class="logo" />
+        <h2>
+          Here you can find info about <br />
+          every country!
+        </h2>
+        <p>
+          Just input some data below (e.g. country name, <br />
+          country code or coordinates...)
+        </p>
+
+        <form class="form">
+          <input
+            class="form__input"
+            placeholder="e.g. Mali, US, 23.34564, 34.45575"
+            type="text"
+          />
+        </form>
+        <div class="go-down">or find on map ↓</div>
+        <h2>Now...</h2>
+        <div class="country-data"></div>
+      </div>
+      <div class="glob">
+        <img src="./src/globe.png" alt="Glob" class="glob-img" />
+      </div>
+    </header>
+
+    <!-- ------------------------------ -->
+    <section class="section" id="section1">
+      <div class="nav-arrow">up</div>
+      <div class="sidebar">
+        <img src="./src/Geocatching.png" alt="Logo" class="logo" />
+
+        <main class="container">
+          <div class="countries"></div>
+        </main>
+
+        <p class="copyright">
+          &copy; Copyright by
+          <a class="twitter-link" target="_blank" href="#">Arkadiusz Pawlak</a>.
+        </p>
+      </div>
+
+      <div id="map"></div>
+    </section>
+  </body>
+</html>
