@@ -1,0 +1,4 @@
+node_modules
+.prettier.rc
+dist
+.parcel-cache

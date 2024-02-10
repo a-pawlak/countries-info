@@ -32,18 +32,18 @@ body {
   align-items: flex-start;
 }
 
-/* GENERAL */
 a:link,
 a:visited {
-  color: var(--color-brand--1);
+  color: var(--color-light--1);
 }
-
+/* Header */
 .header {
+  width: 100%;
   height: 100vh;
+  display: flex;
 }
 .content {
   width: 100%;
-  position: relative;
   padding-left: 8rem;
   display: flex;
   flex-direction: column;
@@ -94,11 +94,9 @@ a:visited {
   box-shadow: 0 0 15px #0ef;
 }
 .glob {
-  position: absolute;
   z-index: -1;
-  top: -10%;
-  right: 0;
-  height: 80rem;
+  height: 100%;
+  justify-self: center;
 }
 .glob-img {
   height: 100%;
@@ -112,26 +110,45 @@ a:visited {
   cursor: pointer;
 }
 
+.margin-sm {
+  margin-left: 2rem;
+}
+.margin-md {
+  margin-left: 4rem;
+}
+.margin-lg {
+  margin-left: 6rem;
+}
+.cursor-p {
+  cursor: pointer;
+}
+.hand-click {
+  font-size: 2rem;
+}
+.country-info:last-child {
+  display: flex;
+  align-items: center;
+}
+/* section */
 .section {
   width: 100%;
+  height: 98vh;
   display: grid;
   grid-template-columns: 3rem 47rem auto;
   background-color: #fff;
 }
-
-/* SIDEBAR */
 .sidebar {
+  height: 98vh;
   background-color: var(--color-lihgt--3);
-  padding: 3rem 5rem 4rem 5rem;
+  padding: 1.2rem 5rem 1.2rem 5rem;
   display: flex;
   flex-direction: column;
-  min-height: 97vh;
+  justify-content: center;
 }
 
 .nav-arrow {
   text-align: center;
-  margin-left: 1rem;
-  margin-top: 4rem;
+  padding-top: 1rem;
   font-size: 2rem;
   color: var(--color-dark--2);
   cursor: pointer;
@@ -144,28 +161,17 @@ a:visited {
 }
 
 .copyright {
-  margin-top: auto;
+  margin-top: 1.2rem;
   font-size: 1.3rem;
   text-align: center;
   color: var(--color-light--1);
-}
-
-.twitter-link:link,
-.twitter-link:visited {
-  color: var(--color-light--1);
-  transition: all 0.2s;
-}
-
-.twitter-link:hover,
-.twitter-link:active {
-  color: var(--color-light--2);
 }
 
 /* MAP */
 #map {
   height: 100%;
   width: 100%;
-  background-color: var(--color-light--1);
+  position: relative;
 }
 
 /* Popup width is defined in JS using options */
@@ -201,11 +207,11 @@ a:visited {
 }
 
 .country__data {
-  padding: 2.5rem 3.75rem 3rem 3.75rem;
+  padding: 0.6rem 3.75rem 3rem 3.75rem;
 }
 
 .country__name {
-  font-size: 2.7rem;
+  font-size: 2.3rem;
   margin-bottom: 0.7rem;
   color: var(--color-dark--1);
 }
@@ -233,23 +239,17 @@ a:visited {
   margin-bottom: 1rem;
 }
 
-.country__row span span {
+.country__row span {
   display: inline-block;
   margin-right: 2rem;
-  font-size: 2.4rem;
-}
-
-.container {
-  display: flex;
-  flex-flow: column;
-  align-items: center;
+  font-size: 1.6rem;
 }
 
 .countries {
   /* margin-bottom: 8rem; */
   display: flex;
 
-  font-size: 2rem;
+  font-size: 1.4rem;
   opacity: 0;
   transition: opacity 1s;
 }
@@ -257,9 +257,8 @@ a:visited {
 .country {
   background-color: #fff;
   box-shadow: 0 2rem 5rem 1rem rgba(0, 0, 0, 0.1);
-  font-size: 1.8rem;
+  font-size: 1.4rem;
   width: 30rem;
   border-radius: 0.7rem;
   margin: 0 3rem;
-  /* overflow: hidden; */
 }

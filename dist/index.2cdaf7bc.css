@@ -1,0 +1,275 @@
+:root {
+  --color-brand--1: #ffb545;
+  --color-brand--2: #00c46a;
+  --color-dark--1: #2d3439;
+  --color-dark--2: #42484d;
+  --color-light--1: #aaa;
+  --color-light--2: #ececec;
+  --color-light--3: #d6dee0;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  color: var(--color-light--2);
+  overscroll-behavior-y: none;
+  background-color: #90cccb;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 2.5rem;
+  font-family: Manrope, sans-serif;
+  display: flex;
+}
+
+a:link, a:visited {
+  color: var(--color-light--1);
+}
+
+.header {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+
+.content {
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+  padding-left: 8rem;
+  display: flex;
+}
+
+.content .logo {
+  margin: 0 auto 0 4rem;
+}
+
+.content h2 {
+  color: var(--color-dark--1);
+  font-size: 4rem;
+}
+
+.content h2:nth-child(2) {
+  margin-bottom: 3rem;
+}
+
+.content p {
+  color: var(--color-dark--1);
+  font-size: 2rem;
+}
+
+.country-info {
+  color: var(--color-dark--2);
+  margin-bottom: .7rem;
+  font-size: 1.6rem;
+}
+
+.country__info__img {
+  object-fit: cover;
+  background-color: #eee;
+  border-radius: 50%;
+  width: 1.6rem;
+  height: 1.6rem;
+}
+
+.form__input {
+  border: 1px solid var(--color-dark--2);
+  background-color: #90cccb;
+  border-radius: 10px;
+  width: 40rem;
+  margin-top: 1rem;
+  padding: .3rem;
+  font-family: inherit;
+  font-size: 2rem;
+  transition: all .2s;
+}
+
+.form__input:focus {
+  background-color: #baeeed;
+  border: 3px solid #0ef;
+  outline: none;
+  box-shadow: 0 0 15px #0ef;
+}
+
+.glob {
+  z-index: -1;
+  justify-self: center;
+  height: 100%;
+}
+
+.glob-img {
+  height: 100%;
+}
+
+.go-down {
+  color: var(--color-dark--2);
+  cursor: pointer;
+  margin-bottom: 3rem;
+  font-size: 1.8rem;
+  text-decoration: underline;
+}
+
+.margin-sm {
+  margin-left: 2rem;
+}
+
+.margin-md {
+  margin-left: 4rem;
+}
+
+.margin-lg {
+  margin-left: 6rem;
+}
+
+.cursor-p {
+  cursor: pointer;
+}
+
+.hand-click {
+  font-size: 2rem;
+}
+
+.country-info:last-child {
+  align-items: center;
+  display: flex;
+}
+
+.section {
+  background-color: #fff;
+  grid-template-columns: 3rem 47rem auto;
+  width: 100%;
+  height: 98vh;
+  display: grid;
+}
+
+.sidebar {
+  background-color: var(--color-lihgt--3);
+  flex-direction: column;
+  justify-content: center;
+  height: 98vh;
+  padding: 1.2rem 5rem;
+  display: flex;
+}
+
+.nav-arrow {
+  text-align: center;
+  color: var(--color-dark--2);
+  cursor: pointer;
+  padding-top: 1rem;
+  font-size: 2rem;
+}
+
+.logo {
+  width: 14rem;
+  height: 14rem;
+  margin-bottom: 4rem;
+}
+
+.copyright {
+  text-align: center;
+  color: var(--color-light--1);
+  margin-top: 1.2rem;
+  font-size: 1.3rem;
+}
+
+#map {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.leaflet-popup .leaflet-popup-content-wrapper {
+  background-color: var(--color-dark--1);
+  color: var(--color-light--2);
+  border-radius: 5px;
+  padding-right: .6rem;
+}
+
+.leaflet-popup .leaflet-popup-content {
+  font-size: 1.5rem;
+}
+
+.leaflet-popup .leaflet-popup-tip {
+  background-color: var(--color-dark--1);
+}
+
+.country__img {
+  object-fit: cover;
+  background-color: #eee;
+  border-top-left-radius: .7rem;
+  border-top-right-radius: .7rem;
+  width: 30rem;
+  height: 17rem;
+}
+
+.weather__img {
+  object-fit: cover;
+  width: 4rem;
+  height: 4rem;
+  margin-bottom: 0;
+}
+
+.country__data {
+  padding: .6rem 3.75rem 3rem;
+}
+
+.country__name {
+  color: var(--color-dark--1);
+  margin-bottom: .7rem;
+  font-size: 2.3rem;
+}
+
+.weather {
+  color: var(--color-dark--2);
+  margin-bottom: .7rem;
+  font-size: 2rem;
+}
+
+.country__region {
+  text-transform: uppercase;
+  color: #888;
+  margin-bottom: 2.5rem;
+  font-size: 1.4rem;
+}
+
+.country__row {
+  color: var(--color-dark--2);
+  align-items: center;
+  display: flex;
+}
+
+.country__row:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.country__row span {
+  margin-right: 2rem;
+  font-size: 1.6rem;
+  display: inline-block;
+}
+
+.countries {
+  opacity: 0;
+  font-size: 1.4rem;
+  transition: opacity 1s;
+  display: flex;
+}
+
+.country {
+  background-color: #fff;
+  border-radius: .7rem;
+  width: 30rem;
+  margin: 0 3rem;
+  font-size: 1.4rem;
+  box-shadow: 0 2rem 5rem 1rem #0000001a;
+}
+
+/*# sourceMappingURL=index.2cdaf7bc.css.map */

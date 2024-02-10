@@ -1,7 +1,7 @@
 'use strict';
 
 const countries = document.querySelector('.countries');
-const btnNav = document.querySelector('.nav-btn');
+const btnNav = document.querySelector('.go-down');
 const section1 = document.querySelector('#section1');
 const navArrow = document.querySelector('.nav-arrow');
 const header = document.querySelector('#header');
@@ -12,11 +12,11 @@ const inputQeury = document.querySelector('.form__input');
 class App {
   #map;
   #markers = [];
-  #mapEvent;
   #mapZoomLevel = 3;
   #countryData = {};
   #coords = [];
   #weatherData;
+  #mapEvent;
 
   constructor() {
     // Get user's position
@@ -33,7 +33,7 @@ class App {
 
   _sliderListener() {
     countryInfo.addEventListener('click', function (e) {
-      if (e.target.id === 'slider')
+      if (e.target.closest('#slider'))
         section1.scrollIntoView({ behavior: 'smooth' });
     });
   }
@@ -81,7 +81,7 @@ class App {
       this.#coords = countryData.latlng;
       this._renderInfos();
     } catch (err) {
-      this._throwError(err);
+      this._renderErr(err);
     }
   };
 
@@ -96,7 +96,7 @@ class App {
       this.#coords = countryData.latlng;
       this._renderInfos();
     } catch (err) {
-      this._throwError(err);
+      this._renderErr(err);
     }
   };
 
@@ -129,7 +129,7 @@ class App {
         }
       }
     } catch (err) {
-      this._throwError(err);
+      this._renderErr(err);
     }
   }
 
@@ -167,16 +167,16 @@ class App {
     } <img class="country__info__img" src="${this.#countryData.flag}" />, ${
       data.region
     }.</h3>
-    <h3 class="country-info" style="margin-left:2rem;">${(
-      +data.population / 1000000
-    ).toFixed(1)} million people live in there.</h3>
-    <h3 class="country-info" style="margin-left:4rem";>Currency is ${
+    <h3 class="country-info margin-sm">${(+data.population / 1000000).toFixed(
+      1
+    )} million people live in there.</h3>
+    <h3 class="country-info margin-md";>Currency is ${
       data.currencies[0].name
     }.</h3>
-    <h3 class="country-info" style="margin-left:6rem";>Citizens speak ${
+    <h3 class="country-info margin-lg";>Citizens speak ${
       data.languages[0].name
     }.</h3>
-    <h3 class="country-info" id="slider" style="cursor:pointer">Check local time & weather below...</h3>
+    <h3 class="country-info cursor-p" id="slider" >Check local time & weather below <span class="hand-click">⤵️</span></h3>
     `;
     countryInfo.insertAdjacentHTML('afterbegin', html);
   }
@@ -198,7 +198,7 @@ class App {
     });
   };
 
-  _throwError = function (err) {
+  _renderErr = function (err) {
     this._clearCountryField();
     const html = `
       <article class="country">
@@ -236,7 +236,7 @@ class App {
       this._clearCountryInfoField();
       if (this.#countryData) delete this.#countryData[0];
     } catch (err) {
-      this._throwError(err);
+      this._renderErr(err);
     }
   };
 
@@ -251,8 +251,6 @@ class App {
 
   _showInfo(mapE) {
     this.#mapEvent = mapE;
-    // form.classList.remove('hidden');
-    // inputDistance.focus();
     const { lat, lng } = mapE.latlng;
     this.#coords = [];
     this.#coords = [lat, lng];
@@ -287,7 +285,7 @@ class App {
     );
     return [
       `${date.getHours()}:${date.getMinutes()}`,
-      `⏳UTC    ${sec < 0 ? '-' : '+'}${Math.abs(sec / 3600)}h`,
+      `UTC    ${sec < 0 ? '-' : '+'}${Math.abs(sec / 3600)}h`,
     ];
   }
 
@@ -307,7 +305,7 @@ class App {
     <p class="country__row"><span>🍃</span>${+weatherData.wind.speed.toFixed()} m/sec</p>
     <h4 class="weather">Local time:</h4>
     <p class="country__row"><span>⌚</span>${localTime[0]}</p>
-    <p class="country__row"><span></span>${localTime[1]}</p>
+    <p class="country__row"><span>⏳</span>${localTime[1]}</p>
     </div>`;
     document
       .querySelector('.country__data')
