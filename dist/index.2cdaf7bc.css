@@ -100,7 +100,6 @@ a:link, a:visited {
 }
 
 .glob {
-  z-index: -1;
   justify-self: center;
   height: 100%;
 }

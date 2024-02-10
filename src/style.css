@@ -94,7 +94,6 @@ a:visited {
   box-shadow: 0 0 15px #0ef;
 }
 .glob {
-  z-index: -1;
   height: 100%;
   justify-self: center;
 }

@@ -1,4 +1,4 @@
-5944
+5945
 51C:\Data\projects\country_info\node_modules\get-port133519795384171936 1
 80C:\Data\projects\country_info\node_modules\caniuse-lite\data\features\pointer.js133519795399790749 0
 75C:\Data\projects\country_info\node_modules\css-tree\cjs\tokenizer\types.cjs133519795393415946 0
@@ -17,12 +17,20 @@
 83C:\Data\projects\country_info\node_modules\csso\node_modules\mdn-data\l10n\css.json133519795386655532 0
 92C:\Data\projects\country_info\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\Doxyfile133519795386090401 0
 85C:\Data\projects\country_info\node_modules\@parcel\core\src\serializerCore.browser.js133519795393966006 0
-34C:\Data\projects\country_info\dist133520555603245889 1
+34C:\Data\projects\country_info\dist133520563069005008 1
 40C:\Data\projects\country_info\.gitignore133520554940593102 0
+75C:\Data\projects\country_info\node_modules\@parcel\fs\src\NodeFS.browser.js133519795386205520 0
+55C:\Data\projects\country_info\node_modules\svgo\LICENSE133519795368589087 0
+63C:\Data\projects\country_info\node_modules\csso\cjs\restructure133519795389999907 1
+85C:\Data\projects\country_info\node_modules\posthtml-parser\dist\location-tracker.d.ts133519795386185513 0
+83C:\Data\projects\country_info\node_modules\caniuse-lite\data\features\array-find.js133519795389379843 0
+60C:\Data\projects\country_info\node_modules\base-x\LICENSE.md133519795380184474 0
+103C:\Data\projects\country_info\node_modules\@parcel\optimizer-svgo\node_modules\svgo\lib\svgo\plugins.js133519795389889846 0
+55C:\Data\projects\country_info\node_modules\import-fresh133519795384066824 1
 76C:\Data\projects\country_info\node_modules\caniuse-lite\data\features\url.js133519795400946299 0
 80C:\Data\projects\country_info\node_modules\@parcel\core\lib\public\Dependency.js133519795391380285 0
 59C:\Data\projects\country_info\node_modules\posthtml\license133519795368646173 0
-33C:\Data\projects\country_info\src133520555084017754 1
+33C:\Data\projects\country_info\src133520557186928698 1
 97C:\Data\projects\country_info\node_modules\caniuse-lite\data\features\mediacapture-fromelement.js133519795399009334 0
 76C:\Data\projects\country_info\node_modules\@swc\helpers\src\_ts_metadata.mjs133519795397898816 0
 67C:\Data\projects\country_info\node_modules\@parcel\packager-css\lib133519795373474127 1
@@ -33,7 +41,7 @@
 72C:\Data\projects\country_info\node_modules\semver\functions\satisfies.js133519795389899848 0
 67C:\Data\projects\country_info\node_modules\supports-color\readme.md133519795384261946 0
 70C:\Data\projects\country_info\node_modules\dom-serializer\package.json133519795385790351 0
-40C:\Data\projects\country_info\index.html133520555530068286 0
+40C:\Data\projects\country_info\index.html133520562423958111 0
 93C:\Data\projects\country_info\node_modules\@parcel\optimizer-htmlnano\node_modules\css-select133519795388925933 1
 71C:\Data\projects\country_info\node_modules\css-tree\lib\walker\index.js133519795395673205 0
 73C:\Data\projects\country_info\node_modules\nth-check\lib\compile.d.ts.map133519795386315528 0
@@ -59,16 +67,6 @@
 70C:\Data\projects\country_info\node_modules\svgo\plugins\removeTitle.js133519795392185491 0
 67C:\Data\projects\country_info\node_modules\css-select\lib\sort.d.ts133519795392415484 0
 43C:\Data\projects\country_info\src\globe.png133395440492690880 0
-53C:\Data\projects\country_info\node_modules\color-name133519795381125406 1
-70C:\Data\projects\country_info\node_modules\@parcel\utils\src\is-url.js133519795390795109 0
-75C:\Data\projects\country_info\node_modules\css-tree\lib\syntax\node\Hash.js133519795394610126 0
-53C:\Data\projects\country_info\node_modules\ansi-regex133519795384036828 1
-101C:\Data\projects\country_info\node_modules\csso\node_modules\css-tree\cjs\definition-syntax\index.cjs133519795391110204 0
-43C:\Data\projects\country_info\src\Globe.svg133395156554362697 0
-82C:\Data\projects\country_info\node_modules\css-tree\cjs\syntax\node\StyleSheet.cjs133519795393235948 0
-79C:\Data\projects\country_info\node_modules\caniuse-lite\data\features\stream.js133519795400453095 0
-74C:\Data\projects\country_info\node_modules\css-tree\lib\syntax\node\Raw.js133519795396093281 0
-65C:\Data\projects\country_info\node_modules\supports-color\license133519795368599156 0
 53C:\Data\projects\country_info\node_modules\domhandler133519795385540352 1
 69C:\Data\projects\country_info\node_modules\svgo\plugins\cleanupIds.js133519795390185075 0
 52C:\Data\projects\country_info\node_modules\@mischnic133519795333917241 1
@@ -76,12 +74,12 @@
 74C:\Data\projects\country_info\node_modules\@parcel\transformer-svg\LICENSE133519795369953282 0
 86C:\Data\projects\country_info\node_modules\@swc\helpers\src\_await_async_generator.mjs133519795397218809 0
 65C:\Data\projects\country_info\node_modules\js-yaml\lib\snippet.js133519795389199861 0
-43C:\Data\projects\country_info\src\script.js133520553195051230 0
+43C:\Data\projects\country_info\src\script.js133520563068182085 0
 49C:\Data\projects\country_info\node_modules\@babel133519795333847699 1
 76C:\Data\projects\country_info\node_modules\entities\lib\encode-trie.d.ts.map133519795387920747 0
 77C:\Data\projects\country_info\node_modules\caniuse-lite\data\features\menu.js133519795399029331 0
 90C:\Data\projects\country_info\node_modules\@parcel\core\lib\requests\WriteBundleRequest.js133519795394660134 0
-43C:\Data\projects\country_info\src\style.css133520551217597336 0
+43C:\Data\projects\country_info\src\style.css133520562312357461 0
 68C:\Data\projects\country_info\node_modules\csso\lib\replace\color.js133519795391270282 0
 62C:\Data\projects\country_info\node_modules\escalade\index.d.ts133519795385850340 0
 56C:\Data\projects\country_info\node_modules\picomatch\lib133519795385650339 1
@@ -162,6 +160,11 @@
 63C:\Data\projects\country_info\node_modules\timsort\package.json133519795368568659 0
 80C:\Data\projects\country_info\node_modules\@swc\helpers\esm\_set_prototype_of.js133519795394096012 0
 83C:\Data\projects\country_info\node_modules\json-parse-even-better-errors\LICENSE.md133519795383306217 0
+53C:\Data\projects\country_info\node_modules\color-name133519795381125406 1
+70C:\Data\projects\country_info\node_modules\@parcel\utils\src\is-url.js133519795390795109 0
+75C:\Data\projects\country_info\node_modules\css-tree\lib\syntax\node\Hash.js133519795394610126 0
+53C:\Data\projects\country_info\node_modules\ansi-regex133519795384036828 1
+101C:\Data\projects\country_info\node_modules\csso\node_modules\css-tree\cjs\definition-syntax\index.cjs133519795391110204 0
 105C:\Data\projects\country_info\node_modules\msgpackr-extract\node_modules\node-gyp-build-optional-packages133519795385328343 1
 92C:\Data\projects\country_info\node_modules\caniuse-lite\data\features\css-descendant-gtgt.js133519795394066015 0
 67C:\Data\projects\country_info\node_modules\htmlnano\lib\helpers.mjs133519795392275487 0
@@ -312,14 +315,6 @@
 69C:\Data\projects\country_info\node_modules\@parcel\cache\src\types.js133519795387350728 0
 74C:\Data\projects\country_info\node_modules\caniuse-lite\data\regions\AE.js133519795386175522 0
 51C:\Data\projects\country_info\node_modules\has-flag133519795384036828 1
-75C:\Data\projects\country_info\node_modules\@parcel\fs\src\NodeFS.browser.js133519795386205520 0
-55C:\Data\projects\country_info\node_modules\svgo\LICENSE133519795368589087 0
-63C:\Data\projects\country_info\node_modules\csso\cjs\restructure133519795389999907 1
-85C:\Data\projects\country_info\node_modules\posthtml-parser\dist\location-tracker.d.ts133519795386185513 0
-83C:\Data\projects\country_info\node_modules\caniuse-lite\data\features\array-find.js133519795389379843 0
-60C:\Data\projects\country_info\node_modules\base-x\LICENSE.md133519795380184474 0
-103C:\Data\projects\country_info\node_modules\@parcel\optimizer-svgo\node_modules\svgo\lib\svgo\plugins.js133519795389889846 0
-55C:\Data\projects\country_info\node_modules\import-fresh133519795384066824 1
 65C:\Data\projects\country_info\node_modules\tslib\modules\index.js133519795380006655 0
 54C:\Data\projects\country_info\node_modules\is-arrayish133519795385630335 1
 66C:\Data\projects\country_info\node_modules\nullthrows\package.json133519795369915530 0
@@ -674,7 +669,7 @@
 93C:\Data\projects\country_info\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\intro.doc133519795392995551 0
 61C:\Data\projects\country_info\node_modules\@parcel\events\src133519795386785521 1
 61C:\Data\projects\country_info\node_modules\emoji-regex\es2015133519795385790351 1
-59C:\Data\projects\country_info\dist\Geocatching.af567b75.png133520546543683425 0
+59C:\Data\projects\country_info\dist\Geocatching.af567b75.png133520562314053620 0
 74C:\Data\projects\country_info\node_modules\weak-lru-cache\rollup.config.js133519795384691933 0
 88C:\Data\projects\country_info\node_modules\@swc\helpers\_\_unsupported_iterable_to_array133519795397038506 1
 116C:\Data\projects\country_info\node_modules\@parcel\optimizer-svgo\node_modules\svgo\lib\svgo\css-select-adapter.d.ts133519795392435480 0
@@ -949,8 +944,8 @@
 74C:\Data\projects\country_info\node_modules\caniuse-lite\data\regions\AL.js133519795387580721 0
 85C:\Data\projects\country_info\node_modules\@swc\helpers\_\_apply_decorated_descriptor133519795394500137 1
 106C:\Data\projects\country_info\node_modules\@parcel\optimizer-svgo\node_modules\svgo\plugins\removeTitle.js133519795391240281 0
-81C:\Data\projects\country_info\node_modules\posthtml-parser\dist\chunk.T6SARJYH.js133519795373768365 0
 85C:\Data\projects\country_info\node_modules\css-tree\cjs\syntax\node\ClassSelector.cjs133519795387360722 0
+81C:\Data\projects\country_info\node_modules\posthtml-parser\dist\chunk.T6SARJYH.js133519795373768365 0
 95C:\Data\projects\country_info\node_modules\csso\node_modules\css-tree\cjs\lexer\match-graph.cjs133519795391890275 0
 73C:\Data\projects\country_info\node_modules\type-fest\source\value-of.d.ts133519795390039912 0
 81C:\Data\projects\country_info\node_modules\css-tree\lib\syntax\node\Identifier.js133519795394630129 0
@@ -1282,6 +1277,8 @@
 70C:\Data\projects\country_info\node_modules\regenerator-runtime\path.js133519795372125128 0
 66C:\Data\projects\country_info\node_modules\@parcel\types\unsafe.js133519795384381936 0
 66C:\Data\projects\country_info\node_modules\supports-color\index.js133519795378428552 0
+74C:\Data\projects\country_info\node_modules\css-tree\lib\syntax\node\Raw.js133519795396093281 0
+65C:\Data\projects\country_info\node_modules\supports-color\license133519795368599156 0
 71C:\Data\projects\country_info\node_modules\@parcel\transformer-json\src133519795380162343 1
 61C:\Data\projects\country_info\node_modules\strip-ansi\license133519795368488992 0
 96C:\Data\projects\country_info\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\mtest_enc2.c133519795391640281 0
@@ -1412,9 +1409,9 @@
 76C:\Data\projects\country_info\node_modules\@parcel\utils\src\prettifyTime.js133519795391250280 0
 79C:\Data\projects\country_info\node_modules\css-tree\lib\syntax\atrule\import.js133519795394670144 0
 80C:\Data\projects\country_info\node_modules\source-map\dist\source-map.min.js.map133519795389319859 0
+57C:\Data\projects\country_info\node_modules\semver\classes133519795390029932 1
 67C:\Data\projects\country_info\node_modules\js-yaml\dist\js-yaml.mjs133519795389839850 0
 89C:\Data\projects\country_info\node_modules\css-tree\cjs\definition-syntax\SyntaxError.cjs133519795393275939 0
-57C:\Data\projects\country_info\node_modules\semver\classes133519795390029932 1
 59C:\Data\projects\country_info\node_modules\semver\functions133519795390325083 1
 71C:\Data\projects\country_info\node_modules\@swc\helpers\_\_ts_generator133519795396978488 1
 112C:\Data\projects\country_info\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\syntax\config\mix.js133519795392505493 0
@@ -1465,10 +1462,10 @@
 110C:\Data\projects\country_info\node_modules\node-gyp-build-optional-packages\node_modules\detect-libc\README.md133519795385148358 0
 86C:\Data\projects\country_info\node_modules\css-tree\cjs\syntax\node\common\feature.cjs133519795390069935 0
 73C:\Data\projects\country_info\node_modules\semver\internal\identifiers.js133519795387650720 0
-61C:\Data\projects\country_info\node_modules\color-name\LICENSE133519795378418541 0
-85C:\Data\projects\country_info\node_modules\posthtml\node_modules\posthtml-parser\dist133519795385770330 1
 95C:\Data\projects\country_info\node_modules\@parcel\utils\test\input\sourcemap\referenced-min.js133519795391510286 0
 75C:\Data\projects\country_info\node_modules\semver\internal\parse-options.js133519795389289860 0
+61C:\Data\projects\country_info\node_modules\color-name\LICENSE133519795378418541 0
+85C:\Data\projects\country_info\node_modules\posthtml\node_modules\posthtml-parser\dist133519795385770330 1
 87C:\Data\projects\country_info\node_modules\@parcel\optimizer-htmlnano\node_modules\csso133519795390965131 1
 66C:\Data\projects\country_info\node_modules\semver\functions\cmp.js133519795383612796 0
 96C:\Data\projects\country_info\node_modules\@parcel\optimizer-svgo\node_modules\svgo\lib\types.ts133519795392505493 0
@@ -3384,6 +3381,8 @@
 84C:\Data\projects\country_info\node_modules\css-tree\cjs\syntax\node\SelectorList.cjs133519795393105560 0
 78C:\Data\projects\country_info\node_modules\@swc\helpers\esm\_inherits_loose.js133519795393735947 0
 78C:\Data\projects\country_info\node_modules\css-tree\cjs\syntax\node\String.cjs133519795393175966 0
+82C:\Data\projects\country_info\node_modules\css-tree\cjs\syntax\node\StyleSheet.cjs133519795393235948 0
+79C:\Data\projects\country_info\node_modules\caniuse-lite\data\features\stream.js133519795400453095 0
 83C:\Data\projects\country_info\node_modules\@parcel\profiler\lib\SamplingProfiler.js133519795384611936 0
 84C:\Data\projects\country_info\node_modules\css-tree\cjs\syntax\node\TypeSelector.cjs133519795393435943 0
 86C:\Data\projects\country_info\node_modules\caniuse-lite\data\features\mediarecorder.js133519795399019338 0
@@ -3412,7 +3411,7 @@
 80C:\Data\projects\country_info\node_modules\caniuse-lite\data\features\details.js133519795396758419 0
 79C:\Data\projects\country_info\node_modules\css-tree\cjs\syntax\atrule\index.cjs133519795391590292 0
 56C:\Data\projects\country_info\node_modules\@parcel\utils133519795392225482 1
-57C:\Data\projects\country_info\dist\index.2cdaf7bc.css.map133520551218225385 0
+57C:\Data\projects\country_info\dist\index.2cdaf7bc.css.map133520562314053620 0
 76C:\Data\projects\country_info\node_modules\@parcel\reporter-cli\package.json133519795387580721 0
 73C:\Data\projects\country_info\node_modules\css-tree\cjs\parser\create.cjs133519795388765927 0
 94C:\Data\projects\country_info\node_modules\css-select\node_modules\domutils\lib\index.d.ts.map133519795389149858 0
@@ -3548,7 +3547,7 @@
 106C:\Data\projects\country_info\node_modules\@parcel\optimizer-svgo\node_modules\svgo\plugins\removeAttrs.js133519795390195072 0
 90C:\Data\projects\country_info\node_modules\css-select\node_modules\domutils\lib\helpers.js133519795384831960 0
 94C:\Data\projects\country_info\node_modules\css-select\node_modules\domutils\lib\helpers.js.map133519795388955925 0
-53C:\Data\projects\country_info\dist\index.2cdaf7bc.css133520551218184887 0
+53C:\Data\projects\country_info\dist\index.2cdaf7bc.css133520562314003636 0
 90C:\Data\projects\country_info\node_modules\css-select\node_modules\domutils\lib\index.d.ts133519795391025144 0
 88C:\Data\projects\country_info\node_modules\css-select\node_modules\domutils\lib\index.js133519795385760337 0
 92C:\Data\projects\country_info\node_modules\css-select\node_modules\domutils\lib\index.js.map133519795389309861 0
@@ -3770,6 +3769,7 @@
 73C:\Data\projects\country_info\node_modules\commander\package-support.json133519795383373375 0
 62C:\Data\projects\country_info\node_modules\commander\Readme.md133519795385700334 0
 62C:\Data\projects\country_info\node_modules\color-name\index.js133519795372105113 0
+52C:\Data\projects\country_info\dist\index.f5c48570.js133520563068975014 0
 66C:\Data\projects\country_info\node_modules\color-name\package.json133519795368589087 0
 69C:\Data\projects\country_info\node_modules\color-convert\CHANGELOG.md133519795372155110 0
 78C:\Data\projects\country_info\node_modules\caniuse-lite\data\regions\alt-na.js133519795388265925 0
@@ -3931,6 +3931,7 @@
 74C:\Data\projects\country_info\node_modules\@swc\helpers\cjs\_ts_values.cjs133519795392345481 0
 74C:\Data\projects\country_info\node_modules\caniuse-lite\data\regions\IR.js133519795398429273 0
 97C:\Data\projects\country_info\node_modules\@swc\helpers\esm\_class_check_private_static_access.js133519795393125958 0
+69C:\Data\projects\country_info\node_modules\@parcel\utils\package.json133519795392245489 0
 74C:\Data\projects\country_info\node_modules\caniuse-lite\data\regions\IT.js133519795398439269 0
 120C:\Data\projects\country_info\node_modules\@parcel\optimizer-svgo\node_modules\svgo\plugins\addAttributesToSVGElement.js133519795385990396 0
 88C:\Data\projects\country_info\node_modules\caniuse-lite\data\features\abortcontroller.js133519795381205393 0
@@ -4848,7 +4849,6 @@
 76C:\Data\projects\country_info\node_modules\@parcel\workers\lib\WorkerFarm.js133519795390525074 0
 104C:\Data\projects\country_info\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\syntax\scope133519795393625962 1
 68C:\Data\projects\country_info\node_modules\@parcel\watcher\README.md133519795384891942 0
-69C:\Data\projects\country_info\node_modules\@parcel\utils\package.json133519795392245489 0
 77C:\Data\projects\country_info\node_modules\@parcel\logger\test\Logger.test.js133519795384151938 0
 60C:\Data\projects\country_info\node_modules\@parcel\utils\src133519795392105407 1
 76C:\Data\projects\country_info\node_modules\@parcel\utils\test\config.test.js133519795387110648 0
@@ -5939,7 +5939,8 @@
 56C:\Data\projects\country_info\node_modules\.bin\svgo.cmd133519795403468951 0
 74C:\Data\projects\country_info\node_modules\.bin\update-browserslist-db.cmd133519795403468951 0
 63C:\Data\projects\country_info\dist\country_info.3464ddca.js.map133520546544648775 0
-53C:\Data\projects\country_info\dist\globe.69857875.png133520546551299523 0
+53C:\Data\projects\country_info\dist\globe.69857875.png133520562319469404 0
 52C:\Data\projects\country_info\dist\index.44983732.js133520553016691221 0
 56C:\Data\projects\country_info\dist\index.44983732.js.map133520553016721215 0
-45C:\Data\projects\country_info\dist\index.html133520555603235894 0
+56C:\Data\projects\country_info\dist\index.f5c48570.js.map133520563068995002 0
+45C:\Data\projects\country_info\dist\index.html133520562426943760 0

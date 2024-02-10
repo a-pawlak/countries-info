@@ -1,5 +1,3 @@
-'use strict';
-
 const countries = document.querySelector('.countries');
 const btnNav = document.querySelector('.go-down');
 const section1 = document.querySelector('#section1');
@@ -8,6 +6,8 @@ const header = document.querySelector('#header');
 const countryInfo = document.querySelector('.country-data');
 const form = document.querySelector('.form');
 const inputQeury = document.querySelector('.form__input');
+const globe = document.querySelector('.glob-img');
+console.log(globe);
 
 class App {
   #map;
@@ -21,9 +21,11 @@ class App {
   constructor() {
     // Get user's position
     this._getPosition();
-    btnNav.addEventListener('click', function () {
-      section1.scrollIntoView({ behavior: 'smooth' });
-    });
+    [btnNav, globe].forEach(el =>
+      el.addEventListener('click', function () {
+        section1.scrollIntoView({ behavior: 'smooth' });
+      })
+    );
     navArrow.addEventListener('click', function () {
       header.scrollIntoView({ behavior: 'smooth' });
     });
