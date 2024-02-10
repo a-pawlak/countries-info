@@ -7,7 +7,6 @@ const countryInfo = document.querySelector('.country-data');
 const form = document.querySelector('.form');
 const inputQeury = document.querySelector('.form__input');
 const globe = document.querySelector('.glob-img');
-console.log(globe);
 
 class App {
   #map;
@@ -41,12 +40,16 @@ class App {
   }
 
   _getPosition() {
+    const pos = {
+      coords: { latitude: 51.95, longitude: 19.13 },
+    };
     if (navigator.geolocation) {
       navigator.geolocation.getCurrentPosition(
         this._loadMap.bind(this),
         function () {
           alert('Could not get your position');
-        }
+          this._loadMap(pos);
+        }.bind(this)
       );
     }
   }
@@ -56,6 +59,7 @@ class App {
     const { longitude } = position.coords;
 
     const coords = [latitude, longitude];
+
     this.#map = L.map('map').setView(coords, this.#mapZoomLevel);
 
     L.tileLayer('https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png', {
@@ -65,6 +69,15 @@ class App {
 
     // Handling clicks on map
     this.#map.on('click', this._showInfo.bind(this));
+  }
+
+  _loadMap(position) {
+    (async function () {
+      await this._mapLoadAsync(position);
+      const { latitude: lat, longitude: lng } = position.coords;
+      this.#coords = [lat, lng];
+      await this._getCountryData(...this.#coords);
+    }).call(this);
   }
 
   _renderInfos() {
@@ -181,15 +194,6 @@ class App {
     <h3 class="country-info cursor-p" id="slider" >Check local time & weather below <span class="hand-click">⤵️</span></h3>
     `;
     countryInfo.insertAdjacentHTML('afterbegin', html);
-  }
-
-  _loadMap(position) {
-    (async function () {
-      await this._mapLoadAsync(position);
-      const { latitude: lat, longitude: lng } = position.coords;
-      this.#coords = [lat, lng];
-      await this._getCountryData(...this.#coords);
-    }).call(this);
   }
 
   _getJSON = function (url, errorMsg = 'Something went wrong...') {
@@ -323,7 +327,9 @@ class App {
     <article class="country">
       <img class="country__img" src="${data.flag}" />
       <div class="country__data">
-      <h3 class="country__name">${data.name}</h3>
+      <h3 class="country__name ${data.name.length > 12 ? 'font-sm' : ''}">${
+      data.name
+    }</h3>
       <h4 class="country__region">${data.region}</h4>
       <p class="country__row"><span>🌇</span>${data.capital}</p>
       <p class="country__row"><span>👫</span>${(
