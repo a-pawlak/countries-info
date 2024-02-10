@@ -2,4 +2,4 @@
 
 ### One of my learning app 🐼
 
-### https://any-countries-info.netlify.app/ - give permission for one time use your location, and app will start!
+### https://any-countries-info.netlify.app/ - give (or not)permission for one time use your location, and app will start!
