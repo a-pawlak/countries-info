@@ -1,3 +1,5 @@
+import { GEO_APP, OPEN_W } from './config.js';
+
 const countries = document.querySelector('.countries');
 const btnNav = document.querySelector('.go-down');
 const section1 = document.querySelector('#section1');
@@ -228,7 +230,7 @@ class App {
     try {
       const geoData = await this._getJSON(
         `
-        https://api.geoapify.com/v1/geocode/reverse?lat=${lat}&lon=${lng}&format=json&apiKey=03622f340f754f8dabe96c41591b6149`
+        https://api.geoapify.com/v1/geocode/reverse?lat=${lat}&lon=${lng}&format=json&apiKey=${GEO_APP}`
       );
 
       if (!geoData.results.length)
@@ -248,7 +250,7 @@ class App {
 
   _getWeatherData = async function (lat, lng) {
     const weatherData = await this._getJSON(
-      `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lng}&appid=2dfa6f845beab2346b8c0ccea8e5d024`
+      `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lng}&appid=${OPEN_W}`
     );
     this.#weatherData = weatherData;
     this._loadInfo();
